@@ -12,7 +12,7 @@
                     51,875 Discussions
                 </div>
             </div>
-            <a href="#" class="btn btn-primary">Log In to Create Discussions</a>
+            <a href="{{ route('auth.login.show' ) }}" class="btn btn-primary">Log In to Create Discussions</a>
         </div>
         <div class="row">
             <div class="col-12 col-lg-8">
